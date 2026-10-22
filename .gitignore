@@ -1,0 +1,22 @@
+# ── SIGILO FISCAL ─────────────────────────────────────────
+# Nada que identifique contribuinte ou protocolo entra no repositório.
+
+# Autos de trabalho (um dossiê por protocolo) — só no computador do trabalho
+autos/
+**/autos/
+# …exceto a skill /autos, que é código do plugin e precisa ir para o git
+!skills/autos/
+
+# Acervo bruto usado pelo /compilar (protocolos, pareceres e emendas reais)
+acervo/*
+!acervo/README.md
+!acervo/protocolos/
+!acervo/pareceres/
+!acervo/emendas/
+acervo/*/*
+!acervo/*/.gitkeep
+
+# Saídas de rascunho
+*.tmp
+~$*.docx
+.DS_Store

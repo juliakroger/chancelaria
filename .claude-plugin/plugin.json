@@ -1,0 +1,10 @@
+{
+  "name": "chancelaria",
+  "version": "0.1.0",
+  "description": "A corte da Chancelaria: orquestrador e agentes que abrem os autos de um protocolo (SIARE), analisam a consulta, pesquisam a legislação e lavram o parecer no formulário da casa.",
+  "author": {
+    "name": "Julia Kroger",
+    "email": "juliakroger@gmail.com"
+  },
+  "keywords": ["parecer", "consulta-tributaria", "siare", "legisfacil", "orquestrador"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "chancelaria",
+  "owner": {
+    "name": "Julia Kroger",
+    "email": "juliakroger@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "chancelaria",
+      "source": "./",
+      "description": "Orquestrador de pareceres: autos → análise → pesquisa → relatório → parecer → emendas."
+    }
+  ]
+}
